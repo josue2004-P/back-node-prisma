@@ -1,5 +1,5 @@
 {
-  "name": "10-calendar-backend",
+  "name": "backen-restaurante",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^5.12.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -21,6 +22,7 @@
     "mongoose": "^5.9.18"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1"
   }
 }

@@ -1,6 +1,5 @@
 const { response } = require("express");
 const jwt = require("jsonwebtoken");
-const Usuario = require("../models/Usuario");
 
 const validarJWT = async (req, res = response, next) => {
   // x-token headers
